@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mandy Voice Agent</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Mandy.AI Voice Agent</h1>
+    <span id="status" class="status offline">Offline</span>
+  </header>
+
+  <main id="chat"></main>
+
+  <footer>
+    <button id="micBtn" class="mic-btn">🎤 Hold to Talk</button>
+    <button id="resetBtn" class="reset-btn">Reset</button>
+  </footer>
+
+  <div id="wave" class="wave hidden">
+    <div></div><div></div><div></div><div></div>
+  </div>
+
+  <script src="../src/app.js"></script>
+</body>
+</html>
 
